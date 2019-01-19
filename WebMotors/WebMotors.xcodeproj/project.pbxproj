@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BADB1557B36AC2999505E0BB /* Pods_WebMotors.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75A7D8B5297FC9F28C0DCB0A /* Pods_WebMotors.framework */; };
+		F960D07C21F3562E00A6C21A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F960D07B21F3562E00A6C21A /* AppDelegate.swift */; };
+		F960D07E21F3562E00A6C21A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F960D07D21F3562E00A6C21A /* ViewController.swift */; };
+		F960D08121F3562F00A6C21A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F960D07F21F3562F00A6C21A /* Main.storyboard */; };
+		F960D08621F3563300A6C21A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F960D08421F3563300A6C21A /* LaunchScreen.storyboard */; };
+		F960D08E21F3569E00A6C21A /* VehiclesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F960D08D21F3569E00A6C21A /* VehiclesTableViewController.swift */; };
+		F960D09021F369D800A6C21A /* WebMotorsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F960D08F21F369D800A6C21A /* WebMotorsAPI.swift */; };
+		F960D09221F36A0300A6C21A /* WebMotorsStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = F960D09121F36A0300A6C21A /* WebMotorsStructs.swift */; };
+		F960D09421F376A000A6C21A /* VehicleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F960D09321F376A000A6C21A /* VehicleTableViewCell.swift */; };
+		F960D09621F3908500A6C21A /* VehicleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F960D09521F3908500A6C21A /* VehicleViewController.swift */; };
+		F960D09821F3BE1C00A6C21A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F960D09721F3BE1C00A6C21A /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		49FE9A14999D5E4C038A885E /* Pods-WebMotors.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebMotors.release.xcconfig"; path = "Pods/Target Support Files/Pods-WebMotors/Pods-WebMotors.release.xcconfig"; sourceTree = "<group>"; };
+		6B7B32007BCB87D14CB097BC /* Pods-WebMotors.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebMotors.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WebMotors/Pods-WebMotors.debug.xcconfig"; sourceTree = "<group>"; };
+		75A7D8B5297FC9F28C0DCB0A /* Pods_WebMotors.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WebMotors.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F960D07821F3562E00A6C21A /* WebMotors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebMotors.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F960D07B21F3562E00A6C21A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F960D07D21F3562E00A6C21A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F960D08021F3562F00A6C21A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F960D08521F3563300A6C21A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F960D08721F3563300A6C21A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F960D08D21F3569E00A6C21A /* VehiclesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehiclesTableViewController.swift; sourceTree = "<group>"; };
+		F960D08F21F369D800A6C21A /* WebMotorsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebMotorsAPI.swift; sourceTree = "<group>"; };
+		F960D09121F36A0300A6C21A /* WebMotorsStructs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebMotorsStructs.swift; sourceTree = "<group>"; };
+		F960D09321F376A000A6C21A /* VehicleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleTableViewCell.swift; sourceTree = "<group>"; };
+		F960D09521F3908500A6C21A /* VehicleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleViewController.swift; sourceTree = "<group>"; };
+		F960D09721F3BE1C00A6C21A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F960D07521F3562E00A6C21A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BADB1557B36AC2999505E0BB /* Pods_WebMotors.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76D08771E0C4566A095C1CDE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6B7B32007BCB87D14CB097BC /* Pods-WebMotors.debug.xcconfig */,
+				49FE9A14999D5E4C038A885E /* Pods-WebMotors.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EEAF9554695B61A0B69DBB7E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75A7D8B5297FC9F28C0DCB0A /* Pods_WebMotors.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F960D06F21F3562E00A6C21A = {
+			isa = PBXGroup;
+			children = (
+				F960D07A21F3562E00A6C21A /* WebMotors */,
+				F960D07921F3562E00A6C21A /* Products */,
+				76D08771E0C4566A095C1CDE /* Pods */,
+				EEAF9554695B61A0B69DBB7E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F960D07921F3562E00A6C21A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F960D07821F3562E00A6C21A /* WebMotors.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F960D07A21F3562E00A6C21A /* WebMotors */ = {
+			isa = PBXGroup;
+			children = (
+				F960D07B21F3562E00A6C21A /* AppDelegate.swift */,
+				F960D07D21F3562E00A6C21A /* ViewController.swift */,
+				F960D07F21F3562F00A6C21A /* Main.storyboard */,
+				F960D08D21F3569E00A6C21A /* VehiclesTableViewController.swift */,
+				F960D09521F3908500A6C21A /* VehicleViewController.swift */,
+				F960D09321F376A000A6C21A /* VehicleTableViewCell.swift */,
+				F960D08F21F369D800A6C21A /* WebMotorsAPI.swift */,
+				F960D09121F36A0300A6C21A /* WebMotorsStructs.swift */,
+				F960D09721F3BE1C00A6C21A /* Assets.xcassets */,
+				F960D08421F3563300A6C21A /* LaunchScreen.storyboard */,
+				F960D08721F3563300A6C21A /* Info.plist */,
+			);
+			path = WebMotors;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F960D07721F3562E00A6C21A /* WebMotors */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F960D08A21F3563300A6C21A /* Build configuration list for PBXNativeTarget "WebMotors" */;
+			buildPhases = (
+				E0671FA4BAF94E20F06536CD /* [CP] Check Pods Manifest.lock */,
+				F960D07421F3562E00A6C21A /* Sources */,
+				F960D07521F3562E00A6C21A /* Frameworks */,
+				F960D07621F3562E00A6C21A /* Resources */,
+				C4B8613013D0CB2A22583451 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WebMotors;
+			productName = WebMotors;
+			productReference = F960D07821F3562E00A6C21A /* WebMotors.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F960D07021F3562E00A6C21A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Marcos V. S. Matsuda";
+				TargetAttributes = {
+					F960D07721F3562E00A6C21A = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = F960D07321F3562E00A6C21A /* Build configuration list for PBXProject "WebMotors" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F960D06F21F3562E00A6C21A;
+			productRefGroup = F960D07921F3562E00A6C21A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F960D07721F3562E00A6C21A /* WebMotors */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F960D07621F3562E00A6C21A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F960D08621F3563300A6C21A /* LaunchScreen.storyboard in Resources */,
+				F960D09821F3BE1C00A6C21A /* Assets.xcassets in Resources */,
+				F960D08121F3562F00A6C21A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C4B8613013D0CB2A22583451 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WebMotors/Pods-WebMotors-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WebMotors/Pods-WebMotors-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0671FA4BAF94E20F06536CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WebMotors-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F960D07421F3562E00A6C21A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F960D09421F376A000A6C21A /* VehicleTableViewCell.swift in Sources */,
+				F960D09621F3908500A6C21A /* VehicleViewController.swift in Sources */,
+				F960D07E21F3562E00A6C21A /* ViewController.swift in Sources */,
+				F960D09021F369D800A6C21A /* WebMotorsAPI.swift in Sources */,
+				F960D07C21F3562E00A6C21A /* AppDelegate.swift in Sources */,
+				F960D09221F36A0300A6C21A /* WebMotorsStructs.swift in Sources */,
+				F960D08E21F3569E00A6C21A /* VehiclesTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F960D07F21F3562F00A6C21A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F960D08021F3562F00A6C21A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F960D08421F3563300A6C21A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F960D08521F3563300A6C21A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F960D08821F3563300A6C21A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F960D08921F3563300A6C21A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F960D08B21F3563300A6C21A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B7B32007BCB87D14CB097BC /* Pods-WebMotors.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WebMotors/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.matsuda.marcos.WebMotors;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F960D08C21F3563300A6C21A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49FE9A14999D5E4C038A885E /* Pods-WebMotors.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WebMotors/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.matsuda.marcos.WebMotors;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F960D07321F3562E00A6C21A /* Build configuration list for PBXProject "WebMotors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F960D08821F3563300A6C21A /* Debug */,
+				F960D08921F3563300A6C21A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F960D08A21F3563300A6C21A /* Build configuration list for PBXNativeTarget "WebMotors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F960D08B21F3563300A6C21A /* Debug */,
+				F960D08C21F3563300A6C21A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F960D07021F3562E00A6C21A /* Project object */;
+}
